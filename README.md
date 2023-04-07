@@ -4,9 +4,7 @@ The production of a high brillance muon beam is one of the most important challe
 A particularly interesting idea consists of shooting high energy positrons on a target, aiming at the production of muons by means of the process $e^+ + e^- \rightarrow \mu^+ + \mu^-$. 
 To mimize the divergence of the resulting "muon beam", the positrons energy is chosen so that the reaction occurs close to threshold (assuming the electrons in the target to be at rest). 
 The main goal of this project is to produce a Monte Carlo simulation of such a process. 
-##
-#### Part 2: use the synthetic dataset to design an experiment
-
+##Details
 Assume a $2$ meter long, $1.7$ Tesla dipole magnet is placed after the target. Assume a number of tracking detectors can be placed before the target, after the target before the magnet (one line) and after the magnet (two lines, one for positive the other for negative muons); those could be made of silicon pixels, with a single-hit resolution varying from 50 to 200 ${\rm \mu m}$.  
 Try to address the following items keeping in mind that money matters (i.e. you cannot buy an infinite number of detectors and the smaller the single-hit resolution the higher the cost) and that the layout of the experiment has to be as compact as possible (say whithin 20 m).
 
@@ -17,3 +15,9 @@ Try to address the following items keeping in mind that money matters (i.e. you 
 5. keep in consideration the fact that the two muons emerge synchronously from the target: how small the pitch (the distance between individual pixels) have to be of the detectors prior to the magnet? If that is too small, adjust the tracking algorithm accordingly (i.e. the reconstruct muon tracks could share hits in those detectors) 
 6. compute the resolution of the muon momenta and of the $\sqrt(s)$;
 7. (optional, a though one..) correct the muon trajectories for the transverse position of the hard scattering on the target section. Actually the incoming positrons are both dispersed in space (the flat distribution with  $r=1$ cm) and divergent; one would need to correct for that too.
+
+## References
+* [LEMMA](https://arxiv.org/pdf/1509.04454.pdf)
+* [Babayaga](https://www2.pv.infn.it/~hepcomplex/babayaga.html)
+* [2018 Experiment](https://arxiv.org/pdf/1909.13716.pdf)
+* [2021 proposal](https://cds.cern.ch/record/2712394?ln=en)
