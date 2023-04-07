@@ -15,7 +15,6 @@ Try to address the following items keeping in mind that money matters (i.e. you 
 4. develop an algorithm to track the particles, both the incoming positrons and the outgoing muons.
 5. keep in consideration the fact that the two muons emerge synchronously from the target: how small the pitch (the distance between individual pixels) have to be of the detectors prior to the magnet? If that is too small, adjust the tracking algorithm accordingly (i.e. the reconstruct muon tracks could share hits in those detectors) 
 6. compute the resolution of the muon momenta and of the $\sqrt(s)$;
-7. (optional, a though one..) correct the muon trajectories for the transverse position of the hard scattering on the target section. Actually the incoming positrons are both dispersed in space (the flat distribution with  $r=1$ cm) and divergent; one would need to correct for that too.
 
 ## References
 * [LEMMA](https://arxiv.org/pdf/1509.04454.pdf)
